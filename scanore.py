@@ -1,6 +1,5 @@
 import socket
 import threading
-from time import sleep
 
 ip_address = input("Enter IP address: ")
 L_port = 10999
