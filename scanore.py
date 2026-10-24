@@ -32,8 +32,6 @@ def scan():
 
             if result == 0:
                 print(f"[{min_port}] Port Open")
-            else:
-                print(f"[{min_port}] Port Closed")
         except Exception as e:
             print(f"[{min_port}]: Error - {e}")
 
